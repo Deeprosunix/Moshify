@@ -136,12 +136,12 @@ a {
 }
 
 /*Icons*/
-.icon{
+.icon {
     width: 40px;
     height: 40px;
 }
 .icon--primary {
-    fill: var(--colour-primary);
+    color: var(--colour-primary);
 }
 .icon-container{
     align-items: center;
@@ -293,3 +293,16 @@ a {
     }
 }
 
+/*Media*/
+.media {
+    display: flex;
+}
+.media__title {
+    margin-top: 0;
+}
+.media__body {
+    margin: 0 2rem;
+}
+.media__image {
+    margin-top: 1rem;
+}
